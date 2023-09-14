@@ -1,0 +1,24 @@
+/* CSS for styling the accordion */
+.accordion-button {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+/* Styling for active accordion items */
+.accordion-item.active .accordion-button {
+    background-color: #ddd;
+}
